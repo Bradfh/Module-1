@@ -6,6 +6,7 @@
 
 body {
     background-color: #d9dcd6;
+    position: relative;
 }
 
 /* removed class (.) from header tag */
@@ -53,6 +54,20 @@ p {
     font-size: 16px;
 }
 
+
+figure {    
+    margin-bottom: 25px;
+    
+}
+
+
+figure img {
+    position: relative;
+    height: 800px;
+    width: 100%;
+}
+
+/*
 .hero {
     height: 800px;
     width: 100%;
@@ -61,6 +76,7 @@ p {
     background-size: cover;
     background-position: center;
 }
+*/
 
 .float-left {
     float: left;
