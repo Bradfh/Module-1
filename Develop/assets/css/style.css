@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* removed class (.) from header tag */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,7 +21,8 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .seo {
+/* changed .seo to span */
+header h1 span {
     color: #d9dcd6;
 }
 
@@ -32,7 +34,7 @@ header nav {
     font-size: 20px;
 }
 
-.header nav ul {
+header nav ul {
     list-style-type: none;
 }
 
@@ -41,7 +43,8 @@ header nav ul li {
     margin-left: 25px;
 }
 
-a {
+/* not sure if this is the best way to annotate */
+header nav ul li a {
     color: #ffffff;
     text-decoration: none;
 }
