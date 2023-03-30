@@ -88,13 +88,27 @@ figure img {
     margin-left: 25px;
 }
 
+section {
+    width: 100%;
+    position: relative;
+    margin: 20px;
+}
+
+article {
+    width: 75%;
+}
+
+
+/*
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+*/
 
-.benefits {
+/* Made position absolute within the section container */
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -103,6 +117,10 @@ figure img {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+
 }
 
 .benefit-lead {
@@ -160,6 +178,7 @@ figure img {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    position: relative;
 }
 
 .online-reputation-management {
@@ -169,6 +188,7 @@ figure img {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    position: relative;
 }
 
 .social-media-marketing {
@@ -178,6 +198,7 @@ figure img {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    position: relative;
 }
 
 .search-engine-optimization img {
