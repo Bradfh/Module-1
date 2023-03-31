@@ -9,7 +9,6 @@ body {
     position: relative;
 }
 
-/* removed class (.) from header tag */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -22,7 +21,6 @@ header h1 {
     font-size: 48px;
 }
 
-/* changed .seo to span */
 header h1 span {
     color: #d9dcd6;
 }
@@ -44,7 +42,6 @@ header nav ul li {
     margin-left: 25px;
 }
 
-/* not sure if this is the best way to annotate */
 header nav ul li a {
     color: #ffffff;
     text-decoration: none;
@@ -78,12 +75,13 @@ figure img {
 }
 */
 
-.float-left {
+#float-left {
     float: left;
     margin-right: 25px;
+    position: relative;
 }
 
-.float-right {
+#float-right {
     float: right;
     margin-left: 25px;
 }
@@ -96,6 +94,7 @@ section {
 
 article {
     width: 75%;
+    position: relative;
 }
 
 
@@ -107,7 +106,6 @@ article {
 }
 */
 
-/* Made position absolute within the section container */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -171,7 +169,18 @@ aside {
     max-width: 150px;
 }
 
-.search-engine-optimization {
+.features {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    position: relative;
+}
+
+
+/* .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -198,27 +207,27 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-    position: relative;
-}
+    position: relative; */
 
-.search-engine-optimization img {
+
+.features img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
+/* .online-reputation-management img {
     max-height: 200px;
 }
 
 .social-media-marketing img {
     max-height: 200px;
-}
+} */
 
-.search-engine-optimization h2 {
+.features h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
+/* .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -226,7 +235,7 @@ aside {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+} */
 
 .footer {
     padding: 30px;
